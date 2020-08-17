@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--
+            How to make a note
+    -->  
+
+  <!--
+            Visible parts of the html doc go in the body
+        -->  
+<h1>Headings are from H1-H6, larger to smaller</h1>
+    <p>This is a paragraph</p>
+      <!--
+            This is an example of an Unordered List 
+        -->
+    <ul>
+        <li><strong> The "strong" tag makes things bold</strong></li>
+<li><u> The "u" tag makes things underlined</u></li>
+<li><em> Wrap "em" around text to italicize</em></li>
+<li><s> Wrap the "S" tag around text to add a strike-through</s></li>
+    </ul>
+    
+    <hr>
+    <!--
+            "hr" tag adds a horizontal line between text/topics. It is self closing
+    -->  
+    
+        <!--
+            Div class is how you style certain bodys of text the same, with the style
+    --> 
+<div class="cities">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="cities">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="cities">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+     <!--
+    flexbox example below
+    -->
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>
+     <!--
+    flexbox example above
+    -->
+
+</body>
+</html>
